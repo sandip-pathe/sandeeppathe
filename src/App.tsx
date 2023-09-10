@@ -1,14 +1,11 @@
-import Message from "./message.js";
 import List from "./components/List.js";
-import Greet from "./components/Greet.js";
 
 
 function App() {
+  let items = ["London", "Mumbai", "Japan", "Budapest", "New York"];
   return (
     <div>
-      <Message/>
-      <List/>
-      <Greet/>
+      <List items={items} heading="Cities"/>
     </div>
   );
 }
