@@ -1,9 +1,14 @@
-import Message from "./Message.js";
+import Message from "./message.js";
+import List from "./components/List.js";
+import Greet from "./components/Greet.js";
+
 
 function App() {
   return (
     <div>
-      <Message></Message>
+      <Message/>
+      <List/>
+      <Greet/>
     </div>
   );
 }
